@@ -1,0 +1,16 @@
+#config.yml
+auth_url: "https://us-west-2.cloud.com:5000/v2.0"
+tenant_name: "my-tenant-1619"
+network_url: "https://us-west-2.cloud.com:9696/v2.0/"
+openstack_remote_user: "cloud-user"
+
+#Specify instance information
+
+flavor: "m1.large"
+image: "CentOS-7"
+networks: "My-Network"
+#server: "test"
+keypair_name: "vagrant-keypair"
+private_key_path: "~/.ssh/id_rsa"
+#security_groups: "default"
+floating_ip_pool: "my-floating-pool"

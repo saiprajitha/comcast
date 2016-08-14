@@ -1,0 +1,4 @@
+# instances.yml
+nodes:
+- webserver_01
+- webserver_02
